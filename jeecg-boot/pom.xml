@@ -86,7 +86,6 @@
 	<modules>
         <module>jeecg-boot-base-core</module>
         <module>jeecg-module-system</module>
-        <module>jeecg-boot-module</module>
     </modules>
 
 	<repositories>
@@ -460,22 +459,6 @@
 					<exclusion>
 						<groupId>org.apache.calcite</groupId>
 						<artifactId>calcite-elasticsearch</artifactId>
-					</exclusion>
-				</exclusions>
-			</dependency>
-			<!-- minidao -->
-			<dependency>
-				<groupId>org.jeecgframework.boot3</groupId>
-				<artifactId>minidao-spring-boot-starter-jsqlparser-4.9</artifactId>
-				<version>${minidao.version}</version>
-				<exclusions>
-					<exclusion>
-						<artifactId>druid</artifactId>
-						<groupId>com.alibaba</groupId>
-					</exclusion>
-					<exclusion>
-						<artifactId>jsqlparser</artifactId>
-						<groupId>com.github.jsqlparser</groupId>
 					</exclusion>
 				</exclusions>
 			</dependency>
